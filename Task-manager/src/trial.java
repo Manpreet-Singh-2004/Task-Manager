@@ -4,6 +4,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Line;
@@ -45,13 +46,21 @@ public class trial extends Application {
 //        StackPane root1 = new StackPane(root, button);
 //        root1.setStyle("-fx-background-color: lightblue;");
 
-        Scene scene = new Scene(root, 300, 200, Color.LIGHTBLUE);
+
 
         Image icon = new Image("new.png");
+        ImageView imageView = new ImageView(icon);
+        imageView.setX(500);
+        imageView.setY(500);
+
+        root.getChildren().add(imageView);
+
+
+        Scene scene = new Scene(root, 300, 200, Color.LIGHTBLUE);
         stage.getIcons().add(icon);
         stage.setTitle("Stage 1");
-        stage.setWidth(500);
-        stage.setHeight(500);
+        stage.setWidth(700);
+        stage.setHeight(700);
         stage.setScene(scene);
         stage.show();
     }
