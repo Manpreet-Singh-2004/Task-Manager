@@ -48,7 +48,7 @@ public class trial extends Application {
 
 
 
-        Image icon = new Image("new.png");
+        Image icon = new Image("logo.png");
         ImageView imageView = new ImageView(icon);
         imageView.setX(500);
         imageView.setY(500);

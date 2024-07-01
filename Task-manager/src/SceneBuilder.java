@@ -5,7 +5,7 @@ import javafx.scene.image.Image;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
-public class Main extends Application {
+public class SceneBuilder extends Application {
     @Override
     public void start(Stage primaryStage) {
         Label label = new Label("Hello, JavaFX!");

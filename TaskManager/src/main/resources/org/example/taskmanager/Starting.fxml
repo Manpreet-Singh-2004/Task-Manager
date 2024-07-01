@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml">
+    <Button fx:id="button" text="New page" layoutX="50" layoutY="50"/>
+    <Button fx:id="button1" text="Calc" layoutX="150" layoutY="50"/>
+</AnchorPane>

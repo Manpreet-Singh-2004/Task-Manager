@@ -7,3 +7,10 @@ Add VM Options
 
 
 --module-path "D:\Task-Manager\javafx-sdk-22.0.1\lib" --add-modules javafx.controls,javafx.fxml
+
+
+Scene Builder
+C:\Users\mani1\AppData\Local\SceneBuilder\SceneBuilder.exe
+
+How to run ->
+Go to your FXML file and right-click on it and in the bottom youll be able to see a open with scene builder.
