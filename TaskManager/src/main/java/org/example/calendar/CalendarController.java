@@ -33,7 +33,7 @@ public class CalendarController implements Initializable {
     @FXML
     private FlowPane calendar;
 
-    @FXML
+//    @FXML
     @FXML
     private void handleDateClick(MouseEvent event) {
         TextInputDialog dialog = new TextInputDialog();
@@ -51,7 +51,7 @@ public class CalendarController implements Initializable {
             CalendarActivity newActivity = new CalendarActivity(selectedDate, title, description, time);
             addCalendarActivity(newActivity);
             saveReminders();
-            redrawCalendar();
+//            redrawCalendar();
         });
 
 }
@@ -197,7 +197,7 @@ public class CalendarController implements Initializable {
         Random random = new Random();
         for (int i = 0; i < 50; i++) {
             ZonedDateTime time = ZonedDateTime.of(year, month, random.nextInt(27) + 1, 16, 0, 0, 0, dateFocus.getZone());
-            activities.add(new CalendarActivity(time, "Hans", a));
+//            activities.add(new CalendarActivity(time, "Hans", a));
         }
 
         return activities;
